@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+nav {
+    
+    height: 80px;
+    width: 100%;
+    
+}
+.nav_box{
+    display: inline-flex;
+    
+    width: 90%;
+}
+.title_name{
+    
+    font-size: 20px;
+    width: 4%;
+}
+.title_name img{
+    margin-left: 10px;
+    width: 100%;
+    height: 90%;
+}
+ul{
+    
+    display: inline-flex;
+}
+nav ul a{
+    
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.container{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+
+}
+.subdiv{
+    margin-top: 10px;
+    display: inline-flex;
+    width: 90%;
+}
+.call_scroll{
+    position: absolute;
+    top: 2%;
+    margin-left: 50;
+    
+    width: 90%;
+    height: 500px;
+    overflow-y: scroll;
+}
+.text{
+    
+    background-color: azure;
+    display: inline-flex;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 10px;
+    box-shadow: 0px 0px 2px gray;
+}
+.name{
+    
+    height: 20px;
+    margin-top: 2.5%;
+    width: 50%;
+}
+.text a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    text-shadow: 2px 2px 3px gray;
+
+}
+.call_scroll{
+   
+}
+.call{
+    background-color: rgb(66, 196, 66);
+    display: inline-flex;
+
+}
+.email-button{
+    background-color: rgb(248, 33, 33);
+}
+.tel{
+    margin-top: -12%;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    filter: drop-shadow(2px 3px 3px rgb(39, 29, 29));
+}
